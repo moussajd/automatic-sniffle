@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>هواتف ومستحضرات إلكترونية في موريتانيا</title>
+<style>
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    margin: 0; padding: 0;
+    color: #333;
+  }
+  header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 15px 20px 40px 20px;
+    box-shadow: 0 0 15px #ddd;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .product-card {
+    flex: 1 1 260px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 0.1);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .product-info {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-info h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.2rem;
+  }
+  .product-info p {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  .price {
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  .offer {
+    background: #e1f5fe;
+    border: 1px solid #81d4fa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 25px 0;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #0288d1;
+  }
+  .btn-whatsapp {
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 28px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    margin: 20px auto 0 auto;
+    display: block;
+    width: fit-content;
+  }
+  .btn-whatsapp:hover {
+    background-color: #1ebe57;
+  }
+  footer {
+    text-align: center;
+    margin: 25px 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  @media(max-width: 600px) {
+    .products {
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+<body>
+<header>أفضل الهواتف ومستحضراتها في موريتانيا</header>
+<div class="container">
+  <div class="offer">
+    عرض خاص: توصيل لجميع المدن - الدفع عند الاستلام!
+  </div>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80" alt="هاتف ذكي" />
+      <div class="product-info">
+        <h3>هاتف ذكي حديث</h3>
+        <p>أحدث الموديلات بأداء قوي وكاميرا ممتازة لتجربة لا مثيل لها.</p>
+        <div class="price">السعر: 25,000 أوقية</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1510557880182-3a8359b6bc49?auto=format&fit=crop&w=400&q=80" alt="شاحن سريع" />
+      <div class="product-info">
+        <h3>شاحن سريع</h3>
+        <p>شاحن عالي الجودة لشحن سريع وآمن لهاتفك الذكي.</p>
+        <div class="price">السعر: 2,000 أوقية</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=400&q=80" alt="سماعات لاسلكية" />
+      <div class="product-info">
+        <h3>سماعات لاسلكية</h3>
+        <p>صوت نقي وحرية كاملة بدون أسلاك مزعجة.</p>
+        <div class="price">السعر: 5,500 أوقية</div>
+      </div>
+    </div>
+  </div>
+  <a href="https://wa.me/22227240600" target="_blank" class="btn-whatsapp">تواصل عبر واتساب الآن</a>
+</div>
+<footer>© 2025 موسى - جميع الحقوق محفوظة</footer>
+</body>
+</html>
